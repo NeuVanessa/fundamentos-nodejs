@@ -4,7 +4,7 @@ const app = express();
 
 //método sende envia mensagem para quem faz a requisição.
 app.get("/",(request,response)=>{
-return response.json({message:"Hello Word!"})
+return response.json({message:"Hello Word Teste Nodemon!"})
 
 
 })
